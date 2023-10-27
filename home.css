@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.home{
+    background-image: url(./img/fa2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: blue;
+    text-align: center;
+    padding: 13rem;
+    font-size: 30px;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+.home>h1{
+    text-decoration: none;
+}
+button{
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: red;
+}
+button:hover{
+    background-color: green;
+}
+.icon{
+    display: flex;
+    height: 10rem;
+    background-color: ghostwhite;
+    justify-content: space-around;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.icon>img{
+    height: 5rem;
+    width: 5rem;
+    padding-top: 3px;
+}
+.vision{
+
+    display: flex;
+}
+.mission{
+    background-color: grey;
+    height: 20rem;
+    object-fit: cover;
+    display: flex;
+    padding: 40px;
+
+}
+.mission>img{
+    height: 15rem;
+    width: 24rem;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(25, 90, 25);
+    color: ghostwhite;
+}
+section>h1{
+    margin-left: 50px;
+text-decoration: none;
+}
+

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contc{
+    background-color: brown;
+    /* background-image: url(./img/maria-lin-kim-8RaUEd8zD-U-unsplash.jpg); */
+    text-align: center;
+    background-position: center;
+    height: 20rem;
+    color: darkgrey;
+    padding: 2rem;
+}
+body>h3{
+    color: ghostwhite;
+    font-size: 32px;
+    background-color: brown;
+}
+.contc>h2{
+    color: blue;
+    font-size: 30px;
+}
+.contc>h3{
+    color: green;
+    font-size: 25px;
+}
+.contc>p{
+    color: gold;
+    font-size: 30px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    padding: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+fieldset{
+    height: auto;
+    width: 60rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    background-color: blueviolet;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 3rem;
+    width: 100%;
+    height: auto;
+}
+.form{
+    height: 4rem;
+    width: 20rem;
+    outline: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.sendbtn{
+    height: 3rem;
+    border: none;
+    padding: 3rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.sendbtn:hover{
+    background-color: brown;
+}
