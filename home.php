@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="./slider//slide.css">
+    <link rel="stylesheet" href="./slider/slide.css">
 
 </head>
 <body>
@@ -18,31 +18,35 @@
                 <img src="../farm shop/combine buy.jpg" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
+                <img src="./img/cabbage.jpg" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
-                <p>200</p>
+                <img src="./img/banana.JPG" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
-                <p>4000</p>
+                <img src="./farm shop/fertile.jpg" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
+                <img src="./img/wheat3.JPG" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
+                <img src="./img//Ladyfinger5.jpg" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
+                <img src="./img/Green Apple4.jpg" alt="">
             </div>
             <div class="slide">
-                <img src="../farm shop/combine buy.jpg" alt="">
+                <img src="./img/apple.JPG" alt="">
             </div>
-
+            <div class="slide">
+                <img src="./img/Green Apple4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/wheat3.JPG" alt="">
+            </div>
+            
         </div>
-
+        
     </div>
     <div class="home">
         <h1>Welcome home</h1>
@@ -64,7 +68,7 @@
         </div>
         <div class="mission">
             <img src="./img/megan-thomas-xMh_ww8HN_Q-unsplash.jpg" alt="">
-            <p><strong>Vision</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cum quibusdam quisquam, at nihil, possimus provident eos beatae aut voluptate esse voluptates nisi, quos similique. Ex tempora iure dolore voluptatibus? </p>
+            <p><strong>Vision</strong>Lorem ipsum dolor sit possimus provident eos beatae . Ex tempora iure dolore voluptatibus? </p>
         </div>
     </div>
     <div class="number">

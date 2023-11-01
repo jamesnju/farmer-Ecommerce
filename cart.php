@@ -21,41 +21,10 @@
 <?php
 cart();//calling cart function
 ?>
-    <nav class=" welcom navbar navbar-expand-lg">
-        <ul class="navbar-nav me-auto">
-        <?php 
-        
-        if(!isset($_SESSION['username'])){
-          echo '<li class="nav-item">
-          <a class="nav-link" href="#">Welcome Guest</a>
-        </li>';
-        }else{
-          echo '<li class="nav-item">
-          <a class="nav-link text-center" href="#">Welcome '.$_SESSION['username'].'</a>
-        </li>';
-        }
-      ?>
-        <?php 
-          if(!isset($_SESSION['username'])){
-            echo '<li class="nav-item">
-            <a class="nav-link text-center" href="./users/login.php">Login</a>
-          </li>';
-          }else{
-            echo '<li class="nav-item">
-            <a class="nav-link text-center" href="./users/logout.php">Logout</a>
-          </li>';
-          }
-        ?>
-
-        </ul>
-
-    </nav>
   <div class="container1">
     <div class="row cartrow">
       <form action="" method="post">
         <table class=" bg-dark table table-bordered text-center">
-            
-          
             <tbody>
                 <?php
                     /*fetching cart itms from db*/
@@ -174,14 +143,10 @@ cart();//calling cart function
   }
   echo $removeitem=remove();
   ?>
-
     </div>
         <?php 
             include('./footer.php');
         ?>
-
-
-
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
      crossorigin="anonymous"></script>

@@ -2,103 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.header{
-    display: flex;
-    align-items: center;    
-    background-color: rgb(1, 1, 14);
-    justify-content: space-around ;
-    font-size: 25px;
-    width: 100%;
-    height: 15rem;
-    margin-bottom: 1rem;
-
-}
-body{
-    background-color: white;
-}
-.logo{
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-    color: ghostwhite;
-    cursor: pointer;
-}
-.navlinks{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    color: ghostwhite;
-    gap: 2rem;
-    margin-top: 1px;
-}
-.navlinks>a,li{
-    text-decoration: none;
-    color: aliceblue;    
-}
-.navlinks>a,li:hover{
-    color: brown;
-    width: 5rem;
-    margin: auto;
-    border-radius: 20px;
-    text-align: center;
-}
-.nav-item{
-    padding: 10px;
-    margin-top: -10px;
-    width: 100%;
-}
-
-.search1{
-    height: 2rem;
-    border: none;
-    border-radius: 15px;
-    outline: none;
-    font-size: 1rem;
-    padding: 1rem;
-
-}
-
-/* .navlinks,a,li:active{
-    color: green;
-}
-.navlinks,a,li:visited{
-    color: gold;
-} */
-.search{
-    margin-right: 12px;
-    cursor: pointer;
-    height: 2rem;
-    width: 4rem;
-    border: none;
-    border-radius: 10px;
-}
-.navsect{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.account{
-    display: flex;
-    margin: 4px;
-    font-size: 10px;
-    
-}
-.hamberger{
-    display: none;
-    cursor: pointer;
-    margin-top: -4rem;
-
-}
-.bar{
-    display: block;
-    width: 75px;
-    height: 3px;
-    margin: 5px ;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3 ease-in-out;
-    color: aliceblue;
-    
     
 }
 /* blog section */
@@ -112,96 +15,60 @@ body{
     color: green;
     padding: 5px;
 }
+.blogcards>img{
+    padding: 1rem;
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
 .blogcontainer{
     background-color: gray;
     height: 80rem;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    cursor: pointer;
     margin: auto;
+    padding-bottom: 20rem;
     border-radius: 20px;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .blogcards{
+    transition: 0.3s ease-in-out;
     display: flex;
-    height: 20rem;
+    height: 25rem;
     width: 20rem;
     margin: 10px auto;
     align-items: center;
     flex-direction: column;
     object-fit: cover;
     transition: all 3s ease-in;
-    background-color: ghostwhite;
+    background-color: gainsboro;
     border-radius: 20px;
 }
-.blogcards>img{
-object-fit: contain;
-height: 12rem;
-width: 100%;
-margin-top: 10px;
-transition: all 3s ease-in-out;
+.blogcards>h2{
+    font-size: 20px;
+    color: green;
+
+}
+.blogcards>p{
+    color: black;
 }
 .blogbtn{
-    width: 100%;
-    cursor: pointer;
-    background-color: green;
-    color: ghostwhite;
-    height: 2.5rem;
+    height: 2rem;
     border: none;
-    border-radius: 10px;
-}
-/* home section */
-.homecontainer{
-    background-color: aquamarine;
-    height: 60rem;
-    width: 100%;
-}
-/* buy button */
-.btn1{
-    height: 55rem;
-    border: none;
-    background: gray;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 5px;
+    color: white;
     width: 10rem;
-    cursor: pointer;
+    font-size: 20px;
+    
 }
-.btn:hover{
-    background-color: yellowgreen;
+.blogbtn>a{
+    text-decoration: none;
+    color: blueviolet;
+
 }
 
-@media(max-width:768px){
-    .hamberger{
-        display: block;
-        font-weight: 800;
-    }
-    .hamberger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamberger.hamberger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamberger.hamberger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    .navsect{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: black;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-    .navlinks{
-        margin: 16px 0;
 
-    }
-    .navsect.active{
-        left: 0;
-    }
-}

@@ -16,16 +16,12 @@
 <body>
   <!--navbar-->
   <?php include('header.php'); ?>    
-<?php
-cart();//calling cart function
-?>
-    
-    </nav>
-   
     <!--product items-->
+    <?php cart(); ?>
+    
     <div class="row outsiderow">
         <!--products-->
-        <div class="col-md-10">
+        <div class="col-md-12">
             <div class="row insiderow">
                 <?php
                 

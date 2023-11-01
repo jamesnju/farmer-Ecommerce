@@ -4,7 +4,7 @@
   box-sizing: border-box;  
 }
 .home{
-    background-image: url(./img/fa2.jpg);
+    background-image: url(./img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,7 @@
     font-size: 30px;
     gap: 20px;
     text-decoration: none;
+    margin-top: 1rem;
     
 }
 .home>h1{
@@ -34,7 +35,7 @@ button:hover{
 .icon{
     display: flex;
     height: 10rem;
-    background-color: ghostwhite;
+    background-color: grey;
     justify-content: space-around;
     padding-top: 20px;
     cursor: pointer;

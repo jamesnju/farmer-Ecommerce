@@ -10,10 +10,10 @@
     display: grid;
     place-items: center;
     overflow: hidden;
+    background-color: gray;
 }
 .slide-track{
     display: flex;
-    width: calc(150px * 18);
     animation: scroll 40s linear infinite;
 }
 .slide-track:hover{
@@ -29,7 +29,7 @@
 }
 .slide{
     height: 200px;
-    width: 250px;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -37,15 +37,14 @@
 }
 img{
     width: 100%;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 img:hover{
     transform: translateZ(20px);
 }
 .slider::before,
 .slider::after{
-    background: linear-gradient(to right, rgba(255,255,255,1)0%,
-    rgba(255,255,255,0) 100%);
+   
     content: '';
     position: absolute;
     width: 15%;

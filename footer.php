@@ -13,27 +13,28 @@
         <div class="footer">
             <div class="location">
                 <h2>Location</h2>
-                <p><i class="fa-solid fa-location-dot"></i></p>
-                <p>Kenya</p>
-                <p>Nyanza</p>
+                <p>Kenya <i class="fa-solid fa-location-dot"></i></p>
+                <p>Offices Country wide <i class="fa-solid fa-location-dot"></i></p>
 
             </div>
             <div class="social">
                 <h2>Usefull Links</h2>
                 <ul>
-                    <p><li><a href="home.php">Home</a></li></p>
-                    <p><li><a href="blog.php">Blog</a></li></p>
+                    <p><a href="home.php">Home</a></p>
+                    <p><a href="blog.php">Blog</a></p>
                 </ul>
                 
                 
             </div>
             <div class="contact">
-                <h2><a href="contact.php">Contact us</a></h2>
-                <p><a href="contact.php">Talk to us </a></p>
+                <h2>Contact Us</h2>
+                <p><a href="mailto:james500nju@gmail.com" target="_blank">Send a mail  <i class="fa-solid fa-envelope-open"></a></i></p><br>
+                <p><a href="tel:+254700747076">Call Us<i class="fa-solid fa-phone"></i></a></p>
             </div>
             <div class="about">
                 <h2>About us</h2>
-                <p><li><a href="farm_products.php">Buy</a></li></p>
+                <p>Farmers Organzation since 2012</p>
+                <p>Headquater main office <br>Nairobi-Kenya Moi Avenue<i class="fa-solid fa-location-dot"></i></p>
 
                 
             </div>

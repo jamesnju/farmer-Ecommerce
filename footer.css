@@ -7,14 +7,14 @@ footer{
     margin-top: 20px;
     background-color: rgb(1, 1, 14);
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 300;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    bottom: 0;
-    height: 19rem;
+    height: 19.97rem;
 
 
 }
+
 .footer{
     display: flex;
     width: 100%;
@@ -25,20 +25,44 @@ footer{
     border-radius: 50px;
     
 }
-footer>h3{
-    flex-direction: column;
-    text-align: center;
-    color: ghostwhite;
-}
-h1{
+
+.contact>h2{
     text-decoration:underline;
+    color: gold;
 }
+.location>h2{
+    text-decoration: underline;
+    color: gold;
+    font-size: 20px;
+}
+.contact>h2{
+    text-decoration: underline;
+    color: gold;
+    font-size: 20px;
+}
+.social>h2{
+    text-decoration: underline;
+    color: gold;
+    font-size: 20px;
+}
+.about>h2{
+    text-decoration: underline;
+    color: gold;
+    font-size: 20px;
+}
+.support>h2{
+    text-decoration: underline;
+    color: gold;
+    font-size: 20px;
+}
+
 p{
     padding: 10px;
     font-size: 20px;
 }
 a:hover{
-    background-color: red;
+    color: brown;
+    
 }
 ul{
     list-style: none;
@@ -49,6 +73,15 @@ li{
 }
 a{
     text-decoration: none;
-    font-weight: 500;
     color: aliceblue;
+}
+hr{
+    color: ghostwhite;
+}
+footer>h3{
+    flex-direction: column;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+    padding-top: 1.5rem;
 }

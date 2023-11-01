@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-        include('./header.php');
+        include('./farm_products.php');
     ?>
     <div class="contc">
         <h1>Reach us</h1>

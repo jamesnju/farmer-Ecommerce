@@ -20,10 +20,9 @@
 </head>
 <body>
     <div class="container-fluid1">
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
-                <img src="../img/logo.png" alt="Amin" class="admin p-0">
-
+                <p>Admin</p>
                 <nav class="navbar navbar-expand-lg ">
                 <ul class="navbar-nav">
                         <li class="nav-item">
@@ -31,13 +30,12 @@
                         </li>
                     </ul>
                     <?php 
-        
                         if(!isset($_SESSION['username'])){
                         echo '<li class="nav-item">
-                        <a class="nav-link" href="#">Welcome Guest</a>
+                        <a class="nav-link text-light" href="#">Welcome Guest</a>
                         </li>';
                         }else{
-                        echo '<li class="nav-item">
+                        echo '<li class="nav-item text-light">
                         <a class="nav-link" href="#">Welcome '.$_SESSION['username'].'</a>
                         </li>';
                         }
@@ -55,18 +53,17 @@
                     <a href="" ><img src="../img/black-friday-elements-assortment.jpg" class="adminname" alt=""></a>
                     <p class="text-light text-center"></p>
                 </div>
-                <div class="button text-center">
-                    <button class="my-3"><a href="insertproduct.php" class="nav-link text-dark bg-light ">Insert product</a></button>
-                    <button><a href="index.php?viewproducts" class="nav-link text-light text-dark bg-light ">View products</a></button>
-                    <button><a href="index.php?list_orders" class="nav-link text-dark bg-light ">All orders</a></button>
-                    <button><a href="index.php?list_payments" class="nav-link text-dark bg-light ">All payments</a></button>
-                    <button><a href="index.php?list_users" class="nav-link text-dark bg-light ">List users</a></button>
-                    <button><a href="logout.php" class="nav-link text-dark bg-light ">Logout</a></button>
+                <div class="button text-center ">
+                    <button class="my-3"><a href="insertproduct.php" class="admin nav-link text-dark bg-light border-none">Insert product</a></button>
+                    <button><a href="index.php?viewproducts" class="admin nav-link text-light text-dark bg-light ">View products</a></button>
+                    <button><a href="index.php?list_orders" class="admin nav-link text-dark bg-light ">All orders</a></button>
+                    <button><a href="index.php?list_payments" class="admin nav-link text-dark bg-light ">All payments</a></button>
+                    <button><a href="index.php?list_users" class="admin nav-link text-dark bg-light ">List users</a></button>
+                    <button><a href="logout.php" class="admin nav-link text-dark bg-light ">Logout</a></button>
                 </div>
             </div>
         </div>
         <div class="container my-5">
-            <h1>Admin</h1>
             <?php 
             /*we use get to get the insert category variable*/
             

@@ -73,6 +73,7 @@
                     <div>
                         <input type="submit" class="bg-info py-2 px-3 border" value="Login" name="adminlog">
                         <p class="small pt-1 text-bold text-success fw-bold">Don't Have an account click here <a class="link-danger" href="adminregistration.php">Register</a></p>
+                        <button type="submit" class="bg-info py-2 px-3 border text-decoration-none" value="Buyer" name="adminlog"><a href="../users/login.php">Buyer</a></button> 
                     </div>
                 </form>
             </div>

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .fhead{
     background-color: green;
@@ -13,7 +14,7 @@
     place-items: center;
     margin-left: 20rem;
     cursor: pointer;
-    flex-wrap: wrap;
+    border-radius: 15px;
     
 }
 .productcontainer{
@@ -22,10 +23,10 @@
     background-color: grey;
     margin: auto;
     flex-wrap: wrap;
-    gap: 2rem;
+    border-radius: 15px;
     
 }
-img{
+.productcards>img{
     height: 12rem;
     width: 100%;
     object-fit: contain;
@@ -36,36 +37,48 @@ img{
     display: flex;
     flex-direction: column;
     background-color: ghostwhite;
-    margin: auto;
+    margin: 3px;
     height: 20rem;
     width: 20rem;
     object-fit: cover;
     cursor: pointer;
     border: 2px solid #add8e6;
-    transition: 1s;
-    transition: transform 2s;
+    transition: 1s ease-in-out;
+    transition:  0.2s ease;
+    border-radius: 15px;
 }
-h2{
+.productcards>h2{
     text-align: center;
     color: green;
 }
-p{
+.productcards>p{
     text-align: center;
     font-weight: bold;
 }
-button{
-    background-color: green;
-    height: 4rem;
-    font-size: 30px;
-    padding-top: 1rem;
+.button{
+    display: flex;
     width: 100%;
+    justify-content: space-around;
     text-align: center;
-    border: none;
     cursor: pointer;
     margin-top: -0.71rem;
     border-radius: 20px;
+    overflow: hidden;
+    
+    
+}
+.button>button{
+    height: 3rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 1rem;
 
 }
-button:hover{
+.button>button:hover{
     background-color: gold;
 }
