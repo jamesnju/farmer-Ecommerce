@@ -24,8 +24,8 @@
       <ul>
         <li><a href="home.php">Home</a></li>
         <li><a href="blog.php">Blog</a></li>
-        <li><a href="farm_products.php">Products</a></li>
-        <li><a href="index.php">Market</a></li>
+        <li><a href="farm_products.php">Market</a></li>
+        <li><a href="index.php">Products</a></li>
         <!-- <li><a href="./users/profile.php">Orders</a></li> -->
         <li class="nav-item">
           <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i>

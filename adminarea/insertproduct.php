@@ -101,6 +101,9 @@
             <div class="form-outline mb-4 w-50 m-auto">
                 <input type="submit" name="insertproduct" class="btn btn-info mb-3 px-3" value="insertproduct">
             </div>
+            <div class="form-outline mb-4 w-50 m-auto">
+                <a href="index.php"><input class="btn btn-info mb-3 px-3" value="Go home"></a>
+            </div>
         </form>
         </fieldset>
     </div>

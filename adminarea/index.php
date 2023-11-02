@@ -47,19 +47,20 @@
         <div class="second">
             <h3 class="text-center p-2">Admin Dashboard</h3>
         </div>
-        <div class="row">
-            <div class="col-md-12 bg-secondary p-1 d-flex align-items-center">
-                <div class=" p-5">
+        <div class="row ">
+            <div class="adminsec">
+                <!-- <div class=" p-5">
                     <a href="" ><img src="../img/black-friday-elements-assortment.jpg" class="adminname" alt=""></a>
                     <p class="text-light text-center"></p>
-                </div>
-                <div class="button text-center ">
-                    <button class="my-3"><a href="insertproduct.php" class="admin nav-link text-dark bg-light border-none">Insert product</a></button>
-                    <button><a href="index.php?viewproducts" class="admin nav-link text-light text-dark bg-light ">View products</a></button>
-                    <button><a href="index.php?list_orders" class="admin nav-link text-dark bg-light ">All orders</a></button>
-                    <button><a href="index.php?list_payments" class="admin nav-link text-dark bg-light ">All payments</a></button>
-                    <button><a href="index.php?list_users" class="admin nav-link text-dark bg-light ">List users</a></button>
-                    <button><a href="logout.php" class="admin nav-link text-dark bg-light ">Logout</a></button>
+                </div> -->
+                <div class="adminbuttons">
+                    <button><a href="index.php?Home" class="">Home<i class="fa-solid fa-house"></i></a></button>
+                    <button class=""><a href="insertproduct.php" class="">Insert product<i class="fa-brands fa-product-hunt"></i></a></button>
+                    <button><a href="index.php?viewproducts" class="">View products</a></button>
+                    <button><a href="index.php?list_orders" class="">All orders <i class="fa-solid fa-arrow-up-a-z"></i></a></button>
+                    <button><a href="index.php?list_payments" class="">All payments</a></button>
+                    <button><a href="index.php?list_users" class=" ">List users</a></button>
+                    <button><a href="logout.php" class=" ">Logout</a></button>
                 </div>
             </div>
         </div>
@@ -69,6 +70,9 @@
             
                 if(isset($_GET['viewproducts'])){
                     include('viewproduct.php');
+                }
+                if(isset($_GET['home'])){
+                    include('admindash.php');
                 }
                 if(isset($_GET['edit_product'])){
                     include('edit_product.php');

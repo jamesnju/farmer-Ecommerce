@@ -29,7 +29,6 @@
                 <th class="bg-info">Product Image</th>
                 <th class="bg-info">product price</th>
                 <th class="bg-info">Total Sold</th>
-                <th class="bg-info">edit</th>
                 <th class="bg-info">Delete</th>
             </tr>
         </thead>
@@ -59,7 +58,6 @@
                         echo $row_count;
                     ?></td>
                     
-                    <td class="bg-secondary text-light"> <a href='index.php?edit_product=<?php echo $product_id; ?>' class='text-dark'> <i class='fa-solid fa-pen-to-square'></i> </a></td>
                     <td class="bg-secondary text-light"><a href='index.php?delete_product=<?php echo $product_id; ?>' class='text-dark'><i class='fa-solid fa-trash'></i></a></td>
                 </tr>
                 <?php

@@ -12,11 +12,11 @@ include("../connection.php");
         //echo $product_title;
         $product_description=$row_fetch['product_description'];
         $product_keywords=$row_fetch['product_keywords'];
-        $category_id=$row_fetch['category_id'];
-        $brand_id=$row_fetch['brand_id'];
+        // $category_id=$row_fetch['category_id'];
+        // $brand_id=$row_fetch['brand_id'];
         $product_image1=$row_fetch['product_image1'];
-        $product_image2=$row_fetch['product_image2'];
-        $product_image3=$row_fetch['product_image3'];
+        // $product_image2=$row_fetch['product_image2'];
+        // $product_image3=$row_fetch['product_image3'];
         $product_price=$row_fetch['product_price'];
     }
 
@@ -169,50 +169,4 @@ if (isset($_POST['edit_product_button'])) {
         }
     }
 }
-?>
-
-<?php
-   /*  if(isset($_POST['edit_product_button'])){
-        $product_tit=$_POST['product_title'];
-        $product_descripti=$_POST['product_description'];
-        $product_keywor=$_POST['product_keywords'];
-        $product_catego=$_POST['product_category'];
-        $product_bra=$_POST['product_brand'];
-        $product_pri=$_POST['product_price'];
-        $product_image1=$_FILES['product_image1']['name'];
-        $product_image2=$_FILES['product_image2']['name'];
-        $product_image3=$_FILES['product_image3']['name'];
-        
-        $temp_ima1=$_FILES['product_image1']['tmp_name'];
-        $temp_ima2=$_FILES['product_image2']['tmp_name'];
-        $temp_ima3=$_FILES['product_image3']['tmp_name'];
-
-         //checking if fields are empty
-        if($product_tit=='' or $product_descripti=='' or $product_keywor=='' or $product_catego=='' or
-        $product_bra=='' or $product_ima1=='' or $product_ima2=='' or $product_ima3=='' or $product_pri==''){
-
-            echo"<script>alert('please, fill the empty fileds')</script>";
-
-        }else{
-            move_uploaded_file($temp_image1,"./productimages/$product_image1");
-            move_uploaded_file($temp_image2,"./productimages/$product_image2");
-            move_uploaded_file($temp_image3,"./productimages/$product_image3");
-            //query to update products
-
-            $update_sql="update `products` set product_title='$product_tit',product_description='$product_descripi'
-            ,product_keywords='$product_keywor' category_id='$product_category',brand_id='$product_bra',
-            product_image1='$product_ima1',
-            product_image2='$product_ima2',product_image3='$product_ima3',product_price='$product_pri',date=NOW()
-            where product_id=$edit_id";
-            $result_update=mysqli_query($con,$update_sql);
-            if($result_update){
-                echo "<script>alert('products updated succesfully')</script>";
-                echo "window.open('./viewproduct.php','_self')";
-            }
-            
-        } 
-        
-    } */
-   
-
 ?>

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 
@@ -234,5 +235,40 @@ fieldset{
 .containeradmin{
     background-color: ghostwhite;
     padding: 20px;
+}
+/* Admin section */
+.container-fluid1{
+    overflow: hidden;
+    height: 140vh;
+}
+.adminsec{
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    height: 10rem;
+}
+.adminbuttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    
+    
+}
+.adminbuttons>button{
+    border: none;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 10px;
+    
+}
+.adminbuttons>button>a{
+    text-decoration: none;
+    font-weight: bold;
 }
 

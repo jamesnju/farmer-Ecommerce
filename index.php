@@ -18,7 +18,6 @@
   <?php include('header.php'); ?>    
     <!--product items-->
     <?php cart(); ?>
-    
     <div class="row outsiderow">
         <!--products-->
         <div class="col-md-12">
@@ -26,8 +25,8 @@
                 <?php
                 
                 getproducts();
-                getuniquebrands();
-                getuniquecategories();
+                // getuniquebrands();
+                // getuniquecategories();
                 
                 ?>
             </div>
